@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-center lg:gap-8 mt-52">
-      <div className="grid gap-4">
+      {/* <div className="grid gap-4">
         <div className="space-y-2">
           <h1 className="text-3xl font-bold">Teacher Login</h1>
           <p className="text-gray-500 dark:text-gray-400">
@@ -34,7 +34,7 @@ export default function Home() {
             </Button>
           </Link>
         </div>
-      </div>
+      </div> */}
 
       <div className="border-t border-gray-200 dark:border-gray-800 md:border-0 " />
       <div className="grid gap-4">
